@@ -81,10 +81,9 @@ body{
     display: flex;
     flex-direction: column;
 }
-.order-holder{
-    margin: .2rem auto;
-}
+
 .items-order{
+    margin: .3rem auto;
     border-radius: 5px;
     padding: .5rem;
     box-shadow: 1px 1px 3px black;
