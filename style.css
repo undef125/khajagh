@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: rgb(3, 104, 104);
+}
+
+.item-list-holder,.order-holder{
+    width: 96%;
+    margin: auto auto;
+    margin-top: 3rem;
+}
+.items{
+    background: cadetblue;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px black;
+    display: flex;
+    justify-content: space-between;
+    margin: .5rem auto;
+}
+
+.img{
+    width: 6rem;
+    height:5.6rem;
+}
+.img > img{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 4rem;
+}
+
+.input > input{
+    padding-left: 38%;
+    height: 2rem;
+}
+
+
+#order-btn,#final-order-btn,#clear-order-btn{
+    border: 1px solid black;
+    background: rgb(36, 172, 154);
+    height: 1.8rem;
+    font-size: 1rem;
+    width: 5rem;
+}
+.order{
+    align-self: center;
+    padding-right: .5rem;
+}
+.order > button{
+    height: 2rem;
+    width: 4.5rem;
+}
+
+/*******************************************/
+.placed-order{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.orders-to{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.order-holder{
+    margin: .2rem auto;
+}
+.items-order{
+    border-radius: 5px;
+    padding: .5rem;
+    box-shadow: 1px 1px 3px black;
+    display: flex;
+    justify-content: space-between;
+    background: cadetblue;
+}
+.invisible{
+    display: none;
+}
+.visible{
+    display: block;
+}
+
+#final-order-btn,#clear-order-btn{
+    margin-top: .6rem;
+    width: 7rem;
+}
+
